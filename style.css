@@ -1,0 +1,212 @@
+body{
+  margin: 0;
+  font-family: Calibri, Helvetica, sans-serif;
+  align:center;
+  background-color:#266e96;
+}
+h2{
+  color:#71efff;
+  font-weight: bold;
+}
+h3{
+  color:#ffff99;
+  font-weight: bold;
+}
+p{
+  font-family:Arial ;
+   color: #FFFFFF;
+   text-align: center; 
+  font-size:15px;
+}
+
+.th {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.th a {
+  align:center;
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.th a:hover {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+th a {
+  color: #ffffff;
+}
+table, th, td hr{
+  border:3px solid #34d1c4;
+  color:#FFFFFF;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.wrapper h1{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+fieldset{
+  border:2px solid #ffc6c4;
+  
+}
+.advertisement{
+  
+}
+
+img{
+ Display:block;
+ margin-left:auto;
+margin-right:auto;
+}
+h1{
+  color:#000000;
+  font-weight: bold;
+}
+li {
+    float: centre;
+    color:#FFFFFF;
+       }
+#ContactPage{
+  margin: 0;
+  font-family: Calibri, Helvetica, sans-serif;
+  align:center;
+  background-color:#266e96;
+}
+.carosel{
+  width:50%;
+  text-align:center;
+   margin-left: auto;
+  margin-right: auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h1{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 20px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background:#ffff99 ;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
